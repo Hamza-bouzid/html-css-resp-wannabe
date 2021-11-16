@@ -76,7 +76,7 @@ img {
     Media Queries
 *****************/
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 420px) {
   body {
     margin: 0px;
   }
