@@ -77,8 +77,10 @@ img {
 *****************/
 
 @media screen and (max-width: 420px) {
-  body {
+  * {
+    box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
   }
 
   h1 {
@@ -94,8 +96,9 @@ img {
   .right {
     padding: 30px 0 10px 0;
   }
+
   .row {
-    width: 420px;
+    width: 100%;
     margin-top: 0px;
   }
 
@@ -132,6 +135,5 @@ img {
 
   img {
     height: 100px;
-    box-sizing: border-box;
   }
 }
